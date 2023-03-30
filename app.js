@@ -118,3 +118,4 @@ app.get("/multiply", (req,res)=>{
         res.status(500).json({statuscocde:500, msg: error.toString() })
       }
 });
+
